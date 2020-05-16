@@ -1,0 +1,74 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="./js/word-content/dictionary.js"></script>
+        <!-- Phaser: -->
+        <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.js"></script>
+        <script src="./js/game.js"></script>
+        <link href="./css/index.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row typing" id="typing">
+            </div>
+
+            <div class="row">
+                <div id="phaser">
+                </div>
+            </div>
+            
+            <div class="leaderboard row">
+                <h2 class="title">Leaderboard</h2>
+                <div class="buttonRow">
+                    <div class="center leaderButtons">
+                        <button onclick="signup()" class="signupButton waves-effect waves-light btn-small"></button>
+                        <!-- <button onclick="addUser()" class="waves-effect waves-light btn-small">Add User to DB.</button> -->
+                    </div>
+                    <div class="center">
+                            <i class="fab fa-facebook-square fa-3x"></i>
+                        <i class="fab fa-twitter-square fa-3x"></i>
+                    </div>
+                </div>
+                <div class="col s10 offset-s1">
+                    <table id="tabledata" class="responsive-table highlight centered leadertable">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Score</th>
+                                    <th>Date</th>
+                                </tr>
+                            </thead>
+                        </table>
+                </div>  
+            </div>
+        </div>
+    </body>
+    <!-- Materialize -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Firebase: -->
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-auth.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-firestore.js"></script>
+
+    <!-- Final Scripts: Needs to initialize last -->
+    <script src="./js/config.js"></script>
+    <script src="./js/leaderboard.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/typing.js"></script>
+    <!-- Phaser: -->
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.js"></script>
+    <script src="./js/game.js"></script>
+    <link href="./css/index.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+</html>

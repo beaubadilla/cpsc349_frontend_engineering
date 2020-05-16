@@ -1,0 +1,48 @@
+/* span[class*="char"] {
+  border: solid black 1px;
+} */
+
+span {
+  border: solid black 1px;
+  margin: 0.1em;
+  padding: 0.5em;
+  background-color: lightblue
+}
+
+body {
+    background-color: #96D9D3;
+}
+
+
+.title {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 0.5em;
+}
+
+.leaderboard {
+  background-color: #65a7a2;
+  padding-bottom: 2em;
+
+}
+
+.leadertable {
+}
+
+.leaderButtons {
+  padding-bottom: 1.5em;
+}
+
+.fa {
+  /* padding-top: S20px;
+  width: 50px; */
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter-square , .fa-facebook-square{
+  /* background: white; */
+  color: whitesmoke;
+} 

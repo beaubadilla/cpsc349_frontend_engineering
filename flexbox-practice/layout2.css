@@ -1,0 +1,17 @@
+body {
+	display: flex;
+}
+
+.nav-main-container {
+	flex-direction: row;
+	display: flex;
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+}
+
+#nav-one, #nav-two {
+	order: -1;
+}

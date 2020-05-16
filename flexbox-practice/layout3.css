@@ -1,0 +1,12 @@
+main {
+	display: flex;
+	flex-direction: row;
+}
+
+#one, #two {
+	flex-direction: column;
+}
+
+.nav-main-container {
+	flex-direction: column;;
+}

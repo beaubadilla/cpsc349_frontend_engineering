@@ -1,0 +1,28 @@
+html {
+	background-color:#db8700;
+}
+nav {
+	border: 2px solid red;
+	border-radius: 5px;
+	background-color: white;
+}
+
+a:hover {
+	color: hotpink;
+}
+a {
+	margin: 5px;
+}
+
+p {
+	color: white;
+}
+
+img {
+	width:600px;
+	height:400px;
+}
+
+#name {
+	font-family: Oswald;
+}

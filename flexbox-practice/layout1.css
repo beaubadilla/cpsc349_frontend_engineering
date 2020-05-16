@@ -1,0 +1,15 @@
+body {
+	display: flex;
+	flex-direction: column;
+	/*border: solid black 1px;*/
+}
+
+header {
+	order: 0;
+}
+.nav-main-container {
+	order: 1;
+}
+footer {
+	order: 2;
+}

@@ -1,0 +1,29 @@
+html {
+	font-family: Lato;
+	background: #82cfff;
+}
+
+nav {
+	border: 2px solid red;
+	border-radius: 5px;
+	background-color: white;
+}
+
+a:hover {
+	color: hotpink;
+}
+a {
+	margin: 5px;
+}
+
+#name {
+	font-family: Oswald;
+}
+
+.oddparagraphs {
+	background-color: blue;
+}
+
+.evenparagraphs {
+	background-color: green;
+}

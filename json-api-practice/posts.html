@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Posts and Comments</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.css">
+</head>
+<body>
+    <header>
+        <h1>Posts and Comments</h1>
+    </header>
+
+    <article>
+        <h2 data-posts="title"></h2>
+        <p data-posts="body">
+        </p>
+        <button data-posts="id" value="1" type="button">Show comments</button>
+
+        <section class="comments" id="comments-1" hidden>
+            <h3>Comments</h3>
+        </section>
+    </article>
+
+    <article>
+        <h2 data-posts="title"></h2>
+        <p data-posts="body">
+        </p>
+
+        <button data-posts="id" value="2" type="button">Show comments</button>
+
+        <section class="comments" id="comments-2" hidden>
+            <h3>Comments</h3>
+        </section>
+    </article>
+
+    <script src="comments.js"></script>
+</body>
+</html>
