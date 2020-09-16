@@ -67,4 +67,4 @@ git clone https://github.com/beaubadilla/cpsc349_frontend_engineering.git
 Beau Jayme De Guzman Badilla - beau.badilla@gmail.com - [LinkedIn](https://www.linkedin.com/in/beau-jayme-badilla/)
 
 [form-practice-screenshot]: /readme-form-practice-screenshot.jpg
-[typing-game-screenshot]: /readme-typing-game-screenshot.jpg
+[typing-game-screenshot]: /readme-typing-game.jpg
