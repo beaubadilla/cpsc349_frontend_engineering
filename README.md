@@ -36,7 +36,8 @@ Languages: HTML, CSS, JavaScript
 * typing-game - [Firebase](https://firebase.google.com/), [Phaser 3](https://phaser.io/phaser3), [Materialize](https://materializecss.com/)
 
 ### Screenshots
-![Project Screenshot][project-screenshot]
+![form-practice-screenshot][form-practice-screenshot]
+![typing-game-screenshot][typing-game-screenshot]
 
 ## Getting Started
 
@@ -65,4 +66,5 @@ git clone https://github.com/beaubadilla/cpsc349_frontend_engineering.git
 
 Beau Jayme De Guzman Badilla - beau.badilla@gmail.com - [LinkedIn](https://www.linkedin.com/in/beau-jayme-badilla/)
 
-[project-screenshot]: /readme-form-practice-screenshot.jpg
+[form-practice-screenshot]: /readme-form-practice-screenshot.jpg
+[typing-game-screenshot]: /readme-typing-game-screenshot.jpg
