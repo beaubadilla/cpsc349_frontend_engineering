@@ -36,7 +36,10 @@ Languages: HTML, CSS, JavaScript
 * typing-game - [Firebase](https://firebase.google.com/), [Phaser 3](https://phaser.io/phaser3), [Materialize](https://materializecss.com/)
 
 ### Screenshots
+**form-practice**
 ![form-practice-screenshot][form-practice-screenshot]
+
+**typing-game**
 ![typing-game-screenshot][typing-game-screenshot]
 
 ## Getting Started
